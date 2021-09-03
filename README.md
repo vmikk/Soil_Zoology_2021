@@ -1,6 +1,6 @@
 # VII полевая школа по почвенной зоологии и экологии
 
-Материалы для мастер-класса:<br/>
+Материалы для мастер-класса по анализу данных метабаркодинга:<br/>
 https://vmikk.github.io/Soil_Zoology_2021/
 
 Актуальное расписание [доступно по ссылке](https://docs.google.com/document/d/1tdnNAR2G9aMjTQXiOk18Eh3pG5jM3XibUInRXRu96CE/edit#heading=h.cqwqpdu04qfl)
