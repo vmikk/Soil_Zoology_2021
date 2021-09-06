@@ -19,12 +19,10 @@ dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux 
 Для Windows 10 (2004):
 ```
 dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
-
 ```
 Для Windows 10 (1903, 1909):
 ```
 Enable-WindowsOptionalFeature -Online -FeatureName VirtualMachinePlatform -NoRestart
-
 ```
 
 3. Перезупустить ПК
@@ -36,7 +34,6 @@ Enable-WindowsOptionalFeature -Online -FeatureName VirtualMachinePlatform -NoRes
 5. Выбор WSL 2 в качестве версии по умолчанию
 ```
 wsl --set-default-version 2
-
 ```
 
 6. Установка дистрибутива Linux
