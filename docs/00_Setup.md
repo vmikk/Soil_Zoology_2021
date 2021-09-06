@@ -47,6 +47,7 @@ wsl --set-default-version 2
 
 Более подробную иструкцию см. [здесь](https://docs.microsoft.com/ru-ru/windows/wsl/install-win10).
 
+
 ## 02. Установка ПО для биоинфорационного анализа
 
 1. Установка менеджера пакетов [`conda`](https://conda.io/miniconda.html)<br/>
@@ -58,5 +59,11 @@ bash ~/miniconda.sh -b -p $HOME/miniconda
 source ~/.bashrc
 conda update --all --yes -c bioconda -c conda-forge
 conda install --yes -c conda-forge mamba
+```
+
+
+2. Установка [`DADA2`](https://benjjneb.github.io/dada2/index.html) (Callahan et al., 2016) и [`dadaist2`](https://quadram-institute-bioscience.github.io/dadaist2/) (Ansorge et al., 2021)
+```
+mamba install --yes -c conda-forge -c bioconda -c r dadaist2-full
 ```
 
