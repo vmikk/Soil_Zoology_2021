@@ -47,3 +47,16 @@ wsl --set-default-version 2
 
 Более подробную иструкцию см. [здесь](https://docs.microsoft.com/ru-ru/windows/wsl/install-win10).
 
+## 02. Установка ПО для биоинфорационного анализа
+
+1. Установка менеджера пакетов [`conda`](https://conda.io/miniconda.html)<br/>
+Открыть терминал, в коммандной строке ввести:
+```bash
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda.sh
+bash ~/miniconda.sh -b -p $HOME/miniconda
+~/miniconda/bin/conda init bash
+source ~/.bashrc
+conda update --all --yes -c bioconda -c conda-forge
+conda install --yes -c conda-forge mamba
+```
+
