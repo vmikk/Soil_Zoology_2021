@@ -67,3 +67,14 @@ conda install --yes -c conda-forge mamba
 mamba install --yes -c conda-forge -c bioconda -c r dadaist2-full
 ```
 
+
+3. Установка `USEARCH` (Edgar, 2010)
+```bash
+mkdir -p ~/bin
+wget https://www.drive5.com/downloads/usearch11.0.667_i86linux32.gz
+gunzip usearch11.0.667_i86linux32.gz
+mv usearch11.0.667_i86linux32 ~/bin/usearch11
+chmod +x ~/bin/usearch
+```
+
+
