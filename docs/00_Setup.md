@@ -29,7 +29,7 @@ Enable-WindowsOptionalFeature -Online -FeatureName VirtualMachinePlatform -NoRes
 
 3. Перезупустить ПК
 
-4. Скачать пакет обновления ядра Linux
+4. Скачать пакет обновления ядра Linux<br/>
 [Пакет обновления ядра Linux в WSL 2 для 64-разрядных компьютеров](https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi)
 
 
@@ -43,6 +43,7 @@ wsl --set-default-version 2
 - Открыть `Microsoft Store` из меню `Пуск`;
 - Выбрать и установить дистрибутив Linux (например, `Ubuntu 20.04`);
 - Также установить терминал Windows (`Windows Terminal app`) из `Microsoft Store`.
+
 
 При первом запуске Linux потребуется создать новую учетную запись пользователя.
 
