@@ -16,7 +16,7 @@
     ```
     dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
     ```
-2. Включение компонента виртуальных машин (‘Virtual Machine Platform’)
+2. Включение компонента виртуальных машин (‘Virtual Machine Platform’)<br/>
     Для Windows 10 (2004):
     ```
     dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
@@ -85,7 +85,7 @@
 
 ## 03. Загрузка демонстрационных файлов и баз данных
 
-Загрузка и распаковка демонстрационных файлов и баз данных:
+Загрузка и распаковка демонстрационных файлов и баз данных:<br/>
     ```bash
     wget https://github.com/vmikk/Soil_Zoology_2021/releases/download/v1/data.zip
     wget https://github.com/vmikk/Soil_Zoology_2021/releases/download/v1/db.zip
