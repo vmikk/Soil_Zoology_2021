@@ -64,7 +64,7 @@
 
 
 2. Установка [`DADA2`](https://benjjneb.github.io/dada2/index.html) (Callahan et al., 2016) и [`dadaist2`](https://quadram-institute-bioscience.github.io/dadaist2/) (Ansorge et al., 2021)
-    ```
+    ```bash
     mamba install --yes -c conda-forge -c bioconda -c r dadaist2-full
     ```
 
@@ -85,7 +85,7 @@
 
 ## 03. Загрузка демонстрационных файлов и баз данных
 
-Загрузка и распаковка демонстрационных файлов и баз данных:<br/>
+- Загрузка и распаковка демонстрационных файлов и баз данных:
     ```bash
     wget https://github.com/vmikk/Soil_Zoology_2021/releases/download/v1/data.zip
     wget https://github.com/vmikk/Soil_Zoology_2021/releases/download/v1/db.zip
@@ -95,14 +95,14 @@
     gunzip db/COIv4_DB_SINTAX.fa.gz
     ```
 
-Создание базы для BLAST-поиска:
+- Создание базы для BLAST-поиска:
     ```bash
     gunzip -k db/COIv4_DB.fa.gz
     makeblastdb -in db/COIv4_DB.fa -dbtype nucl -out db/COIv4_BLAST
     rm db/COIv4_DB.fa
     ```
 
-Удаление временных файлов:
+- Удаление временных файлов:
     ```bash
     rm data.zip
     rm db.zip
