@@ -44,9 +44,9 @@
 
 
 Для того, чтобы попасть в командную строку Linux необходимо открыть `Windows Terminal` <img src="Images/windows_terminal_icon.png" width="50" title="Windows Terminal"> и ввести:<br/>
-    ```
-    wsl
-    ```
+```
+wsl
+```
 
 При первом запуске Linux потребуется создать новую учетную запись пользователя.
 
