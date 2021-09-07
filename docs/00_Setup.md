@@ -83,7 +83,7 @@ wsl
     wget https://www.drive5.com/downloads/usearch11.0.667_i86linux32.gz
     gunzip usearch11.0.667_i86linux32.gz
     mv usearch11.0.667_i86linux32 ~/bin/usearch11
-    chmod +x ~/bin/usearch
+    chmod +x ~/bin/usearch11
     ```
 
 4. Установка [`BLAST+`](https://www.ncbi.nlm.nih.gov/books/NBK279690/) (Camacho et al., 2009)
