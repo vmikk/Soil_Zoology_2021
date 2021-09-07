@@ -84,3 +84,28 @@ chmod +x ~/bin/usearch
 mamba install --yes -c bioconda blast
 ```
 
+## 03. Загрузка демонстрационных файлов и баз данных
+
+Загрузка и распаковка демонстрационных файлов и баз данных:
+```bash
+wget https://github.com/vmikk/Soil_Zoology_2021/releases/download/v1/data.zip
+wget https://github.com/vmikk/Soil_Zoology_2021/releases/download/v1/db.zip
+
+unzip data.zip
+unzip db.zip
+gunzip db/COIv4_DB_SINTAX.fa.gz
+```
+
+Создание базы для BLAST-поиска:
+```bash
+gunzip -k db/COIv4_DB.fa.gz
+makeblastdb -in db/COIv4_DB.fa -dbtype nucl -out db/COIv4_BLAST
+rm db/COIv4_DB.fa
+```
+
+Удаление временных файлов:
+```bash
+rm data.zip
+rm db.zip
+```
+
