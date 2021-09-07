@@ -79,4 +79,8 @@ mv usearch11.0.667_i86linux32 ~/bin/usearch11
 chmod +x ~/bin/usearch
 ```
 
+4. Установка [`BLAST+`](https://www.ncbi.nlm.nih.gov/books/NBK279690/) (Camacho et al., 2009)
+```bash
+mamba install --yes -c bioconda blast
+```
 
