@@ -3,6 +3,8 @@
 Для установки необходимых программ нам понадобится `Windows 10 + WSL` или любой дистрибутив `Linux`.
 Для более ранних версий Windows можно использовать виртальную машину (например, [`VirtualBox`](https://download.virtualbox.org/virtualbox/6.1.26/VirtualBox-6.1.26-145957-Win.exe) и образ [`Ubuntu` 20.04](https://ubuntu.com/download/desktop/thank-you?version=20.04.3&architecture=amd64)).
 
+Системные требования - около 2GB свободного места на диске, >10GB оперативной памяти.
+
 
 ## 01. Windows Subsystem for Linux (WSL)
 
