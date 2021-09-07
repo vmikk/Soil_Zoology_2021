@@ -5,6 +5,12 @@
 [https://ipae.uran.ru/Soil_Zoology_2021](https://ipae.uran.ru/Soil_Zoology_2021)
 
 
+## Содержание
+
+1. [Установка необходимого ПО](00_Setup.md)
+2. [Анализ с использованием USEARCH](01_USEARCH.md)
+3. [Анализ с использованием DADA2](02_DADA2.md)
+4. [Анализ с использованием PipeCraft2](03_PipeCraft2.md)
 
 
 
