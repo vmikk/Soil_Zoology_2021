@@ -17,7 +17,6 @@
     dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
     ```
 2. Включение компонента виртуальных машин (‘Virtual Machine Platform’)
-
 Для Windows 10 (2004):
     ```
     dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
