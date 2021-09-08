@@ -264,3 +264,26 @@ usearch11 \
 ```bash
 figtree beta_unifrac_binary.tree
 ```
+
+
+## Ссылки
+
+- Callahan B, McMurdie P, Holmes S. Exact sequence variants should replace operational taxonomic units in marker-gene data analysis // _The ISME Journal_ 11 (2017). [DOI:10.1038/ismej.2017.119](https://www.nature.com/articles/ismej2017119)
+
+- Camacho C, Coulouris G, Avagyan V. et al. BLAST+: Architecture and applications // _BMC Bioinformatics_ 10 (2009). [DOI:10.1186/1471-2105-10-421](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-10-421)
+
+- Edgar RC. **SINTAX**: a simple non-Bayesian taxonomy classifier for 16S and ITS sequences // _bioRxiv_ 074161 (2016). [DOI:10.1101/074161](https://www.biorxiv.org/content/10.1101/074161v1)
+
+- Edgar RC. **UNOISE2**: improved error-correction for Illumina 16S and ITS amplicon sequencing // _bioRxiv_ 081257 (2016). [DOI:10.1101/081257](https://www.biorxiv.org/content/10.1101/081257v1)
+
+- Edgar RC, Flyvbjerg H. Error filtering, pair assembly and error correction for next-generation sequencing reads // _Bioinformatics_ 31-21 (2015). [DOI:10.1093/bioinformatics/btv401](https://academic.oup.com/bioinformatics/article/31/21/3476/194979)
+
+- Lozupone CA, Hamady M, Kelley ST, Knight R. Quantitative and qualitative beta diversity measures lead to different insights into factors that structure microbial communities // _Applied and environmental microbiology_ 73-5 (2007). [DOI:10.1128/AEM.01996-06](https://journals.asm.org/doi/10.1128/AEM.01996-06)
+
+
+_________________
+
+Примеры анализа данных с использованием:
+- [DADA2](02_DADA2.md)
+- [PipeCraft2](03_PipeCraft2.md)
+
