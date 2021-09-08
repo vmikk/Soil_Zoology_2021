@@ -4,7 +4,7 @@
 
 Основные этапы пайплайна:
 - Сборка парно-концевых прочтений
-- Удаление участков с синтетическими последовательностями (всё, что находящихся за пределами сайтов, комплементарным праймерам)
+- Удаление участков с синтетическими последовательностями (всё, что находится за пределами сайтов, комплементарным праймерам)
 - Фильтрация прочтений по качеству: максимальное ожидаемое количество ошибок (см.  Edgar and Flyvbjerg, 2015), количество неопределённых нуклеотидов, длина последовательности
 - Дерепликация - поиск и подсчёт количества уникальных прочтений
 - Удаление ошибочных и химерных последовательностей
@@ -131,7 +131,7 @@ usearch11 -otutab_rare otutab_raw.txt -sample_size 2500 -output otutab.txt
 Таксономическая аннотация последовательностей ДНК, а также 
 анализ альфа- и бета-разнообразия может быть проведен 
 как на уровне zOTU (использовать файлы `zotus.fa` и `zotutab.txt`), 
-так и уровне OTU (использовать файлы `otus.fa` и `otutab.txt`). 
+так и на уровне OTU (использовать файлы `otus.fa` и `otutab.txt`). 
 Для простоты мы остановимся на втором случае.
 
 
@@ -139,7 +139,7 @@ usearch11 -otutab_rare otutab_raw.txt -sample_size 2500 -output otutab.txt
 
 ### BLAST
 
-Таксономическая аннотация на основе локального выравнивания последовательностей с помощью BLAST. Используем алгоритм быстрого сравнения с целью поиска высоко сходных последовательностей (`megablast`), для каждой OTU в результат сохраняем 10 лучших соответствий из БД.
+Таксономическая аннотация на основе локального выравнивания последовательностей с помощью BLAST. Используем алгоритм быстрого сравнения (`megablast`) с целью поиска высоко сходных последовательностей, для каждой OTU в результат сохраняем 10 лучших соответствий из БД.
 
 ```bash
 blastn \
@@ -180,7 +180,7 @@ awk '{ if(!x[$1]++) {print $0; bitscore=($14-1)} else { if($14>bitscore) print $
 `SINTAX` - таксономический классификатор на основе состава k-меров последовательностей (Edgar, 2016). В отличии от `BLAST`, для `SINTAX` имеет значение формат заголовков последоватеьностей в базе данных:
 
 ```
->SeqID1234;tax=d:Eukaryota,p:Arthropoda,c: 	Entognatha,o:Entomobryomorpha,f:Entomobryidae,g:Orchesella,s:Orchesella_cincta
+>SeqID1234;tax=d:Eukaryota,p:Arthropoda,c:Entognatha,o:Entomobryomorpha,f:Entomobryidae,g:Orchesella,s:Orchesella_cincta
 GGGTGGACGGTTTATCCACCATTGGCAGCGGGTATTGCTCA...
 ```
 
@@ -270,7 +270,7 @@ figtree beta_unifrac_binary.tree
 
 - Callahan B, McMurdie P, Holmes S. Exact sequence variants should replace operational taxonomic units in marker-gene data analysis // _The ISME Journal_ 11 (2017). [DOI:10.1038/ismej.2017.119](https://www.nature.com/articles/ismej2017119)
 
-- Camacho C, Coulouris G, Avagyan V. et al. BLAST+: Architecture and applications // _BMC Bioinformatics_ 10 (2009). [DOI:10.1186/1471-2105-10-421](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-10-421)
+- Camacho C, Coulouris G, Avagyan V. et al. **BLAST+**: Architecture and applications // _BMC Bioinformatics_ 10 (2009). [DOI:10.1186/1471-2105-10-421](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-10-421)
 
 - Edgar RC. **SINTAX**: a simple non-Bayesian taxonomy classifier for 16S and ITS sequences // _bioRxiv_ 074161 (2016). [DOI:10.1101/074161](https://www.biorxiv.org/content/10.1101/074161v1)
 
