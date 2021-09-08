@@ -44,10 +44,6 @@ for i in ../data/*.gz; do
   gunzip -c "$i" > Uncompressed/"$fn"
 done
 
-## Переименование обрзцов
-rename 's/Forest./Forest_/' Uncompressed/*.fq
-rename 's/Field./Field_/' Uncompressed/*.fq
-
 # Сборка парно-концевых прочтений,
 # добавление названий образцов в заголок последовательностей,
 # объединение всех прочтений в один файл
@@ -55,6 +51,12 @@ usearch11 \
   -fastq_mergepairs Uncompressed/*R1.fq \
   -fastqout merged.fq \
   -relabel @
+
+## Переименование образцов
+# ("Field.G5300" -> "Field_G5300")
+sed -i 's/Field./Field_/' merged.fq
+sed -i 's/Forest./Forest_/' merged.fq
+
 
 # Удаление участков, комплементарных праймерам
 cutadapt \
