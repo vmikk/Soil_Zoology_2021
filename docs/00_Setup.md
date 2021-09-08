@@ -75,7 +75,8 @@ explorer.exe .
     ~/miniconda/bin/conda init bash
     source ~/.bashrc
     conda update --all --yes -c bioconda -c conda-forge
-    conda install --yes -c conda-forge mamba
+    conda install --yes -c conda-forge mamba unzip
+    rm ~/miniconda.sh
     ```
 
 
