@@ -159,6 +159,23 @@ sudo apt -y install wget
     ```
 
 
+## 04. Ссылки
+
+- Anslan S, Mikryukov V, Armolaitis K, Ankuda J, Lazdina D, Makovskis K, Vesterdal L, Schmidt IK, Tedersoo L. Highly comparable metabarcoding results from MGI-Tech and Illumina sequencing platforms // _PeerJ_ (2021, _in press_).
+
+- Ansorge R, Birolo G, James SA, Telatin A. Dadaist2: A Toolkit to automate and simplify statistical analysis and plotting of metabarcoding experiments // _International Journal of Molecular Sciences_ 22 (2021). [DOI:10.3390/ijms22105309](https://www.mdpi.com/1422-0067/22/10/5309)
+
+- Callahan B, McMurdie P, Rosen M et al. DADA2: High-resolution sample inference from Illumina amplicon data // _Nature Methods_ 13 (2016). [DOI:10.1038/nmeth.3869](https://www.nature.com/articles/nmeth.3869)
+
+- Camacho C, Coulouris G, Avagyan V. et al. BLAST+: Architecture and applications // _BMC Bioinformatics_ 10 (2009). [DOI:10.1186/1471-2105-10-421](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-10-421)
+
+- Edgar RC. Search and clustering orders of magnitude faster than BLAST // _Bioinformatics_ 26-19 (2010). [DOI:10.1093/bioinformatics/btq461](https://academic.oup.com/bioinformatics/article/26/19/2460/230188)
+
+- Leray M, Yang JY, Meyer CP et al. A new versatile primer set targeting a short fragment of the mitochondrial COI region for metabarcoding metazoan diversity: application for characterizing coral reef fish gut contents // _Frontiers in Zoology_ 10-34 (2013). [DOI:10.1186/1742-9994-10-34](https://frontiersinzoology.biomedcentral.com/articles/10.1186/1742-9994-10-34)
+
+- Porter TM. Eukaryote CO1 reference set for the RDP classifier (Version v4.0.1) // _Zenodo_. DOI:10.5281/zenodo.4741447 URL:https://github.com/terrimporter/CO1Classifier
+
+
 _________________
 
 Примеры анализа данных с использованием:
