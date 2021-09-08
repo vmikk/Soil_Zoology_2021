@@ -280,6 +280,8 @@ figtree beta_unifrac_binary.tree
 
 - Lozupone CA, Hamady M, Kelley ST, Knight R. Quantitative and qualitative beta diversity measures lead to different insights into factors that structure microbial communities // _Applied and environmental microbiology_ 73-5 (2007). [DOI:10.1128/AEM.01996-06](https://journals.asm.org/doi/10.1128/AEM.01996-06)
 
+- Martin M. **Cutadapt** removes adapter sequences from high-throughput sequencing
+reads // _EMBnet Journal_ 17 (2011). [DOI:10.14806/ej.17.1.200](https://journal.embnet.org/index.php/embnetjournal/article/view/200)
 
 _________________
 
