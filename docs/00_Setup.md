@@ -65,6 +65,11 @@ explorer.exe .
 
 Дальнейшие команды необходимо запускать **в коммандной строке Linux**.<br/>
 
+При отстутстви прогрммы `wget`, необходимо её установить
+```bash
+sudo apt -y install wget
+```
+
 1. Установка менеджера пакетов [`conda`](https://conda.io/miniconda.html)
 
     ```bash
