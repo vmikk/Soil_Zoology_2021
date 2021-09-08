@@ -80,6 +80,7 @@ sudo apt -y install wget
 1. Установка менеджера пакетов [`conda`](https://conda.io/miniconda.html)
 
     ```bash
+    cd ~
     wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda.sh
     bash ~/miniconda.sh -b -p $HOME/miniconda
     ~/miniconda/bin/conda init bash
@@ -118,6 +119,7 @@ sudo apt -y install wget
 - Загрузка и распаковка демонстрационных файлов и баз данных:
 
     ```bash
+    cd ~
     wget https://github.com/vmikk/Soil_Zoology_2021/releases/download/v1/data.zip
     wget https://github.com/vmikk/Soil_Zoology_2021/releases/download/v1/db.zip
     
