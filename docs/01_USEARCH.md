@@ -174,3 +174,43 @@ awk '{ if(!x[$1]++) {print $0; bitscore=($14-1)} else { if($14>bitscore) print $
   > best_hits.txt
 ```
 
+
+### SINTAX
+
+`SINTAX` - таксономический классификатор на основе состава k-меров последовательностей (Edgar, 2016). В отличии от `BLAST`, для `SINTAX` имеет значение формат заголовков последоватеьностей в базе данных:
+
+```
+>SeqID1234;tax=d:Eukaryota,p:Arthropoda,c: 	Entognatha,o:Entomobryomorpha,f:Entomobryidae,g:Orchesella,s:Orchesella_cincta
+GGGTGGACGGTTTATCCACCATTGGCAGCGGGTATTGCTCA...
+```
+
+Классификация на основе `SINTAX`:
+
+```bash
+usearch11 \
+  -sintax otus.fa \
+  -db ../db/COIv4_DB_SINTAX.fa \
+  -strand both \
+  -tabbedout sintax.txt \
+  -sintax_cutoff 0.8
+```
+Параметр `sintax_cutoff` указывает на степень уверенности в аннотации (например, все что ниже значения 0.8 будет рассматриваться как неопределенное).
+
+
+Сводный таксономический отчёт на уровне рода и типа
+
+```bash
+usearch11 -sintax_summary sintax.txt -otutabin otutab.txt -rank g -output summary_genus.txt
+usearch11 -sintax_summary sintax.txt -otutabin otutab.txt -rank p -output summary_phylum.txt
+
+# Просмотр отчёта
+column -t summary_phylum.txt
+```
+
+Извлечение итоговой классификации
+
+```bash
+awk '{print $1 "\t" $4}' sintax.txt > sintax_confident.txt
+```
+
+
