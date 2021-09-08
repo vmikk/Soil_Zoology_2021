@@ -105,6 +105,7 @@ explorer.exe .
 ## 03. Загрузка демонстрационных файлов и баз данных
 
 - Загрузка и распаковка демонстрационных файлов и баз данных:
+
     ```bash
     wget https://github.com/vmikk/Soil_Zoology_2021/releases/download/v1/data.zip
     wget https://github.com/vmikk/Soil_Zoology_2021/releases/download/v1/db.zip
@@ -115,6 +116,7 @@ explorer.exe .
     ```
 
 - Создание базы для BLAST-поиска:
+
     ```bash
     gunzip -k db/COIv4_DB.fa.gz
     makeblastdb -in db/COIv4_DB.fa -dbtype nucl -out db/COIv4_BLAST
@@ -122,6 +124,7 @@ explorer.exe .
     ```
 
 - Удаление временных файлов:
+
     ```bash
     rm data.zip
     rm db.zip
