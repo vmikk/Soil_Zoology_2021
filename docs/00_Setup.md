@@ -94,7 +94,7 @@ sudo apt -y install wget
 2. Установка [`DADA2`](https://benjjneb.github.io/dada2/index.html) (Callahan et al., 2016) и [`dadaist2`](https://quadram-institute-bioscience.github.io/dadaist2/) (Ansorge et al., 2021)
 
     ```bash
-    mamba install --yes -c conda-forge -c bioconda -c r dadaist2-full
+    mamba install --yes -c conda-forge -c bioconda -c r dadaist2-full figtree
     ```
 
 
