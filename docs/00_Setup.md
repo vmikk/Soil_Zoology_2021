@@ -42,6 +42,12 @@
     - Выбрать и установить дистрибутив Linux (например, `Ubuntu 20.04`);
     - Также установить терминал Windows (`Windows Terminal app`) из `Microsoft Store`.
 
+При возникновении ошибок `0x80070003` или `0x80370102`, 
+необходимо включить виртуализацию CPU в BIOS (на этапе загрузки компьютера). 
+В настройках данный пункт обычно находится на вкладке "Advanced". 
+Для процессоров Intel он может называться "Intel Virtualization Technology" или "Intel VT-x", 
+для процессоров AMD - "AMD Secure Virtual Machine" или "AMD SVM".
+
 
 Более подробную иструкцию по установке `WSL` см. [здесь](https://docs.microsoft.com/ru-ru/windows/wsl/install-win10).
 
