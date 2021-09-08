@@ -214,3 +214,53 @@ awk '{print $1 "\t" $4}' sintax.txt > sintax_confident.txt
 ```
 
 
+
+## Анализ альфа- и бета-разнообразия
+
+Оценка количества OTU (`richness`), индекса Шеннона (`shannon_e`), 
+эффектвного количества OTU (`jost1`, число Хилла при `q` = 1), 
+индекса выравненности Пиелу (`equitability`), 
+а также количества прочтений (`reads`) в каждом образце.
+
+```bash
+usearch11 \
+  -alpha_div otutab.txt \
+  -output alpha.txt \
+  -metrics richness,shannon_e,jost1,equitability,reads
+
+# Просмотр таблицы с оценками разнообразия
+column -t alpha.txt
+```
+
+Оценка сходства последовательностей OTU,
+а также построение чернового филогенетического древа.
+
+```bash
+usearch11 -calc_distmx otus.fa -tabbedout dist.tree
+usearch11 -cluster_aggd dist.tree -treeout otus.tree
+```
+
+Визуализация филогенетического древа
+
+```bash
+figtree otus.tree
+```
+
+Оценка бета-разнообразия - несходства образцов на основе
+индекса Брея-Кертиса (с учётом обилия OTU), 
+а также индекса UniFrac (без учёта обилия OTU, но с учётом филогенетических 
+дистанций между ними; см. Lozupone et al., 2007).
+
+```bash
+usearch11 \
+  -beta_div otutab.txt \
+  -metrics bray_curtis,unifrac_binary \
+  -tree otus.tree \
+  -filename_prefix beta_ 
+```
+
+Просмотр сходства образцов на основе индекса UniFrac
+
+```bash
+figtree beta_unifrac_binary.tree
+```
