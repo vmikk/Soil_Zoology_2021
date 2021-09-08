@@ -43,7 +43,10 @@
     - Также установить терминал Windows (`Windows Terminal app`) из `Microsoft Store`.
 
 
-Для того, чтобы попасть в командную строку Linux необходимо открыть `Windows Terminal` <img src="Images/windows_terminal_icon.png" width="50" title="Windows Terminal"> и ввести:<br/>
+Более подробную иструкцию по установке `WSL` см. [здесь](https://docs.microsoft.com/ru-ru/windows/wsl/install-win10).
+
+
+Для того чтобы попасть в командную строку Linux, необходимо открыть `Windows Terminal` <img src="Images/windows_terminal_icon.png" width="50" title="Windows Terminal"> и ввести:<br/>
 ```
 wsl
 ```
@@ -51,7 +54,11 @@ wsl
 При первом запуске Linux потребуется создать новую учетную запись пользователя.
 
 
-Более подробную иструкцию см. [здесь](https://docs.microsoft.com/ru-ru/windows/wsl/install-win10).
+Чтобы получить доступ к файлам "внутри WSL" через Проводник Windows можно ввести:
+```
+explorer.exe .
+```
+(точка в конце строки важна! - она означает "текущий каталог").
 
 
 ## 02. Установка ПО для биоинфорационного анализа
@@ -60,7 +67,8 @@ wsl
 
 1. Установка менеджера пакетов [`conda`](https://conda.io/miniconda.html)<br/>
 
-В коммандной строке ввести:
+В коммандной строке ввести
+
     ```bash
     wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda.sh
     bash ~/miniconda.sh -b -p $HOME/miniconda
@@ -72,12 +80,14 @@ wsl
 
 
 2. Установка [`DADA2`](https://benjjneb.github.io/dada2/index.html) (Callahan et al., 2016) и [`dadaist2`](https://quadram-institute-bioscience.github.io/dadaist2/) (Ansorge et al., 2021)
+
     ```bash
     mamba install --yes -c conda-forge -c bioconda -c r dadaist2-full
     ```
 
 
 3. Установка `USEARCH` (Edgar, 2010)
+
     ```bash
     mkdir -p ~/bin
     wget https://www.drive5.com/downloads/usearch11.0.667_i86linux32.gz
@@ -87,6 +97,7 @@ wsl
     ```
 
 4. Установка [`BLAST+`](https://www.ncbi.nlm.nih.gov/books/NBK279690/) (Camacho et al., 2009)
+
     ```bash
     mamba install --yes -c bioconda blast
     ```
