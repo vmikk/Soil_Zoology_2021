@@ -134,3 +134,43 @@ usearch11 -otutab_rare otutab_raw.txt -sample_size 2500 -output otutab.txt
 так и уровне OTU (использовать файлы `otus.fa` и `otutab.txt`). 
 Для простоты мы остановимся на втором случае.
 
+
+## Таксономическая аннотация
+
+### BLAST
+
+Таксономическая аннотация на основе локального выравнивания последовательностей с помощью BLAST. Используем алгоритм быстрого сравнения с целью поиска высоко сходных последовательностей (`megablast`), для каждой OTU в результат сохраняем 10 лучших соответствий из БД.
+
+```bash
+blastn \
+  -task megablast \
+  -query otus.fa \
+  -db ../db/COIv4_BLAST \
+  -outfmt 6 \
+  -strand both \
+  -max_target_seqs 10 \
+  -num_threads "$NCORES" \
+  -out otus_tax.m8
+```
+
+Предпросмотр результатов
+
+```bash
+less -S otus_tax.m8
+```
+(чтобы покинуть просмотр нажмите `q`)
+
+Количество найденнных в БД соотвтетсвий с высоким сходством (> 95%)
+
+```bash
+awk '{if ($3 > 95) print $0}' otus_tax.m8 | cut -f1 | wc -l
+```
+
+Извлечение самого лучшего соответствий для каждой OTU, 
+результат запишем в файл `best_hits.txt`.
+
+```bash
+awk '{ if(!x[$1]++) {print $0; bitscore=($14-1)} else { if($14>bitscore) print $0} }' blastout.txt \
+  > best_hits.txt
+```
+
