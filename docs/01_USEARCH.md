@@ -107,10 +107,10 @@ usearch11 \
 
 ```bash
 # Таблица OTU
-usearch11 -otutab merged.fq -otus otus.fa -otutabout otutab_raw.txt
+usearch11 -otutab merged.fq -otus otus.fa -sample_delim "." -otutabout otutab_raw.txt
 
 # Таблица zOTU
-# usearch11 -otutab merged.fq -otus zotus.fa -otutabout zotutab_raw.txt
+# usearch11 -otutab merged.fq -otus zotus.fa -sample_delim "." -otutabout zotutab_raw.txt
 ```
 
 Проверим количество прочтений в образцах:
