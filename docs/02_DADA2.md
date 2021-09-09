@@ -69,6 +69,18 @@ multiqc -c DADA2_results/mqc/config.yaml DADA2_results/qc/
 firefox multiqc_report.html 
 ```
 
+
+## Rhea
+
+В подпапке `Rhea` находятся результаты
+
+- анализа разнообразия образцов
+    ```bash
+    cat DADA2_results/Rhea/
+    ```
+- таблицы с нормализированным абсолютным (`OTUs_Table-norm-tax.tab`) и относительным (`OTUs_Table-norm-rel-tax.tab`) обилием ASV в образцах
+- кривые насыщения ASV в зависимости от количества прочтений (`RarefactionCurve.pdf`)
+
 _________________
 
 Примеры анализа данных с использованием:
