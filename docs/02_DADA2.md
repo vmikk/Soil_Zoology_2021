@@ -81,6 +81,28 @@ firefox multiqc_report.html
 - таблицы с нормализированным абсолютным (`OTUs_Table-norm-tax.tab`) и относительным (`OTUs_Table-norm-rel-tax.tab`) обилием ASV в образцах
 - кривые насыщения ASV в зависимости от количества прочтений (`RarefactionCurve.pdf`)
 
+
+## Ссылки
+
+- Callahan B, McMurdie P, Rosen M et al. **DADA2**: High-resolution sample inference from Illumina amplicon data // _Nature Methods_ 13 (2016). [DOI:10.1038/nmeth.3869](https://www.nature.com/articles/nmeth.3869)
+
+- Ansorge R, Birolo G, James SA, Telatin A. **Dadaist2**: A Toolkit to automate and simplify statistical analysis and plotting of metabarcoding experiments // _International Journal of Molecular Sciences_ 22 (2021). [DOI:10.3390/ijms22105309](https://www.mdpi.com/1422-0067/22/10/5309)
+
+- Ewels P, Magnusson M, Lundin S, Käller M. **MultiQC**: Summarize analysis results for multiple tools and samples in a single report // _Bioinformatics_ (2016) [DOI:10.1093/bioinformatics/btw354](https://academic.oup.com/bioinformatics/article/32/19/3047/2196507)
+
+- Lagkouvardos I, Fischer S, Kumar N, Clavel T. **Rhea**: a transparent and modular R pipeline for microbial profiling based on 16S rRNA gene amplicons // _PeerJ_ 5 (2017) [DOI:10.7717/peerj.2836](https://peerj.com/articles/2836/)
+
+- Chong J, Liu P, Zhou G et al. Using **MicrobiomeAnalyst** for comprehensive statistical, functional, and meta-analysis of microbiome data // _Nature Protocols_ 15 (2020). [DOI:10.1038/s41596-019-0264-1](https://www.nature.com/articles/s41596-019-0264-1)
+
+- Leray M, Yang JY, Meyer CP et al. A new versatile primer set targeting a short fragment of the mitochondrial COI region for metabarcoding metazoan diversity: application for characterizing coral reef fish gut contents // _Frontiers in Zoology_ 10-34 (2013). [DOI:10.1186/1742-9994-10-34](https://frontiersinzoology.biomedcentral.com/articles/10.1186/1742-9994-10-34)
+
+- Martin M. **Cutadapt** removes adapter sequences from high-throughput sequencing
+reads // _EMBnet Journal_ 17 (2011). [DOI:10.14806/ej.17.1.200](https://journal.embnet.org/index.php/embnetjournal/article/view/200)
+
+- McMurdie PJ, Holmes S. **phyloseq**: An R Package for Reproducible Interactive Analysis and Graphics of Microbiome Census Data // _PLOS ONE_ 8-4 (2013). [DOI:10.1371/journal.pone.0061217](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0061217)
+
+- Telatin A, Fariselli P, Birolo G. **SeqFu**: A Suite of Utilities for the Robust and Reproducible Manipulation of Sequence Files // _Bioengineering_ 8 (2021). [DOI:10.3390/bioengineering8050059](https://www.mdpi.com/2306-5354/8/5/59)
+
 _________________
 
 Примеры анализа данных с использованием:
