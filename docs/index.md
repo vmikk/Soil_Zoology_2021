@@ -13,4 +13,14 @@
 4. [Анализ с использованием PipeCraft2](03_PipeCraft2.md)
 
 
+## Рекомендованная литература
+
+- Семёнов МВ. Метабаркодинг и метагеномика в почвенно-экологических исследованиях: Успехи, проблемы и возможности // _Журнал общей биологии_ 80-6 (2019). [DOI:10.1134/S004445961906006X](https://elibrary.ru/item.asp?id=41241983)
+
+- Antich A, Palacin C, Wangensteen OS, Turon, X. To denoise or to cluster, that is not the question: optimizing pipelines for COI metabarcoding and metaphylogeography // _BMC Bioinformatics_ 22 (2021). [DOI:10.1186/s12859-021-04115-6](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-021-04115-6)
+
+- Tedersoo L, Albertsen M, Anslan S, Callahan B. Perspectives and benefits of
+high-throughput long-read sequencing in microbial ecology // _Applied and Environmental Microbiology_ 87 (2021) [DOI:10.1128/AEM.00626-21](https://journals.asm.org/doi/10.1128/AEM.00626-21)
+
+- Zaiko A, Greenfield P, Abbott C, von Bilewitch J, Bunce M, et al. Towards reproducible metabarcoding data: Lessons from an international cross-laboratory experiment // _Molecular Ecology Resources_ (2021). [DOI:10.1111/1755-0998.13485](https://onlinelibrary.wiley.com/doi/full/10.1111/1755-0998.13485)
 
