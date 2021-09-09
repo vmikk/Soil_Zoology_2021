@@ -14,7 +14,7 @@ cat metadata.tsv
 
 Далее команда `dadaist2` запускает пайплан DADA2, в который входит:
 - фильтрация данных по качеству (c помощью [`SeqFu`](https://telatin.github.io/seqfu2/); Telatin et al., 2021)
-- удаление участков, комплементарных праймерам (с помощью `Cutadapt`; Martin, 2011)
+- удаление участков, комплементарных праймерам (с помощью [`Cutadapt`](https://cutadapt.readthedocs.io); Martin, 2011)
 - сборку парно-концевых ридов
 - удаление ошибок секвенирования и формирование ASV (c помощью [`DADA2`](https://benjjneb.github.io/dada2/tutorial.html); Callahan et al., 2016)
 - удаление химерных последовательностей
