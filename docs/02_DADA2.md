@@ -87,6 +87,26 @@ firefox multiqc_report.html
 - кривые насыщения ASV в зависимости от количества прочтений (`RarefactionCurve.pdf`)
 
 
+## MicrobiomeAnalyst
+
+[`MicrobiomeAnalyst`](https://www.microbiomeanalyst.ca/MicrobiomeAnalyst/home.xhtml) 
+(Chong et al., 2020) - веб-сервер, на котором представлен модуль 
+для анализа данных метабаркодинга (MDP, _Marker Data Profiling_). 
+Его возможности простираются от нормализации данных до статистического 
+сравнения и классификации групп образцов.
+
+Программа `dadaist2` уже заботливо помогла сформировать данные в удобном для
+`MicrobiomeAnalyst` формате и нам остаётся только загрузить их по этой ссылке:<br/>
+[https://www.microbiomeanalyst.ca/MicrobiomeAnalyst/upload/OtuUploadView.xhtml](https://www.microbiomeanalyst.ca/MicrobiomeAnalyst/upload/OtuUploadView.xhtml)
+
+
+В поле `OTU/ASV table` необходимо загрузить файл `table.csv`.<br/>
+В поле `Metadata file` - файл `metadata.csv`.<br/>
+В поле `Taxonomy table` - файл `taxonomy.csv`.<br/>
+В поле `Phylogenetic tree` - файл`rep-seqs.tree`.<br/>
+В графе `Taxonomy labels` выбрать "QIIME".<br/>
+
+
 ## Ссылки
 
 - Callahan B, McMurdie P, Rosen M et al. **DADA2**: High-resolution sample inference from Illumina amplicon data // _Nature Methods_ 13 (2016). [DOI:10.1038/nmeth.3869](https://www.nature.com/articles/nmeth.3869)
