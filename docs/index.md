@@ -24,3 +24,5 @@ high-throughput long-read sequencing in microbial ecology // _Applied and Enviro
 
 - Zaiko A, Greenfield P, Abbott C, von Bilewitch J, Bunce M, et al. Towards reproducible metabarcoding data: Lessons from an international cross-laboratory experiment // _Molecular Ecology Resources_ (2021). [DOI:10.1111/1755-0998.13485](https://onlinelibrary.wiley.com/doi/full/10.1111/1755-0998.13485)
 
+Для тех, кто работает в `R`:
+- Callahan BJ, Sankaran K, Fukuyama JA et al. Bioconductor Workflow for Microbiome Data Analysis: from raw reads to community analyses // _F1000Research_ 5 (2016). [DOI:10.12688/f1000research.8986.2](https://f1000research.com/articles/5-1492)
