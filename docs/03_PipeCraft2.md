@@ -1,6 +1,12 @@
 
 GitHub репозиторий: https://github.com/SuvalineVana/pipecraft-vue
 
+## Docker Desktop
+https://desktop.docker.com/win/stable/amd64/Docker%20Desktop%20Installer.exe
+
+## PipeCraft2 alpha
+https://drive.google.com/file/d/1_yyENw6F-yjQ-4DEFSe_kESUBpYarJM_/view
+
 
 ## Ссылки
 
