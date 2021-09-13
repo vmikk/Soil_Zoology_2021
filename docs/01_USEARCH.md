@@ -170,7 +170,7 @@ awk '{if ($3 > 95) print $0}' otus_tax.m8 | cut -f1 | wc -l
 результат запишем в файл `best_hits.txt`.
 
 ```bash
-awk '{ if(!x[$1]++) {print $0; bitscore=($14-1)} else { if($14>bitscore) print $0} }' blastout.txt \
+awk '{ if(!x[$1]++) {print $0; bitscore=($14-1)} else { if($14>bitscore) print $0} }' otus_tax.m8 \
   > best_hits.txt
 ```
 
