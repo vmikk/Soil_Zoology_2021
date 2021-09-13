@@ -12,6 +12,7 @@ ASV представляют собой аналоги OTU, но имеют бо
 файлам с парно-концевыми прочтениями:
 
 ```bash
+cd ~
 dadaist2-metadata -i data/ > metadata.tsv
 cat metadata.tsv
 ```
