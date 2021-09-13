@@ -17,6 +17,8 @@
 
 - Семёнов МВ. Метабаркодинг и метагеномика в почвенно-экологических исследованиях: Успехи, проблемы и возможности // _Журнал общей биологии_ 80-6 (2019). [DOI:10.1134/S004445961906006X](https://elibrary.ru/item.asp?id=41241983)
 
+- Шеховцов СВ, Шеховцова ИН, Пельтек СЕ. ДНК-штрихкодирование: методы и подходы // _Успехи современной биологии_ 139-3 (2019). [DOI: 10.1134/S0042132419030074](https://sciencejournals.ru/view-article/?j=uspbio&y=2019&v=139&n=3&a=UspBio1903007Shekhovtsov)
+
 - Микрюков ВС, Дуля ОВ, Лиходеевский ГА, Воробейчик ЕЛ. Анализ экологических сетей многокомпонентных сообществ микроорганизмов: Возможности, ограничения, потенциальные ошибки // _Экология_ 3 (2021). [DOI:10.31857/S0367059721030082](https://www.elibrary.ru/item.asp?doi=10.31857/S0367059721030082)
 
 - Antich A, Palacin C, Wangensteen OS, Turon, X. To denoise or to cluster, that is not the question: optimizing pipelines for COI metabarcoding and metaphylogeography // _BMC Bioinformatics_ 22 (2021). [DOI:10.1186/s12859-021-04115-6](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-021-04115-6)
