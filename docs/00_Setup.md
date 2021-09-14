@@ -94,7 +94,7 @@ sudo apt -y install wget
 2. Установка [`DADA2`](https://benjjneb.github.io/dada2/index.html) (Callahan et al., 2016) и [`dadaist2`](https://quadram-institute-bioscience.github.io/dadaist2/) (Ansorge et al., 2021)
 
     ```bash
-    mamba install --yes -c conda-forge -c bioconda -c r dadaist2-full figtree
+    mamba install --yes -c conda-forge -c bioconda -c r dadaist2-full
     ```
 
 
@@ -113,6 +113,18 @@ sudo apt -y install wget
     ```bash
     mamba install --yes -c bioconda blast
     ```
+5. (Опционально) [FigTree](http://tree.bio.ed.ac.uk/software/figtree/) - программа для визуализации филогенетических деревьев
+
+- Для Windows: 
+[ссылка для скачивания](https://github.com/rambaut/figtree/releases/download/v1.4.4/FigTree.v1.4.4.zip)<br/>
+Возможно, также потребуется [Java Runtime Environmen](https://java.com/en/download/)<br/>
+
+- Для Linux:
+    ```bash
+    mamba install --yes -c bioconda figtree
+    ```
+
+
 
 ## 03. Загрузка демонстрационных файлов и баз данных
 
