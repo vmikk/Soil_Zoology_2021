@@ -111,6 +111,9 @@ firefox multiqc_report.html
 В поле `Phylogenetic tree` - файл`rep-seqs.tree`.<br/>
 В графе `Taxonomy labels` выбрать "QIIME".<br/>
 
+## Результаты
+
+Результаты пайплайна доступны [здесь](https://github.com/vmikk/Soil_Zoology_2021/releases/download/v2/DADA2.zip)
 
 ## Ссылки
 
