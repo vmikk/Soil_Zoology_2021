@@ -275,6 +275,9 @@ usearch11 \
 figtree beta_unifrac_binary.tree
 ```
 
+## Результаты
+
+Результаты пайплайна доступны [здесь](https://github.com/vmikk/Soil_Zoology_2021/releases/download/v2/USEARCH.zip)
 
 ## Ссылки
 
