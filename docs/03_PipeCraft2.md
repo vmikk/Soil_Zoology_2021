@@ -1,4 +1,4 @@
-## PipeCraft2 (альфа-версия).
+## PipeCraft2 (бета-версия).
 <p align="center"><img src="Images/PipeCraft2_logo.png" width="100" title="PipeCraft2" /><br/></p>
 PipeCraft2 - кросс-платформенный конструктор пайплайнов для анализа данных метабаркодинга. <br/>
 Поддерживаемые данные: платформы Illumina, MGI-Seq, PacBio. <br/>
@@ -24,8 +24,8 @@ GitHub репозиторий: [https://github.com/SuvalineVana/pipecraft-vue](h
 ### Docker Desktop
 [https://desktop.docker.com/win/stable/amd64/Docker%20Desktop%20Installer.exe](https://desktop.docker.com/win/stable/amd64/Docker%20Desktop%20Installer.exe)
 
-### PipeCraft2 alpha
-[https://drive.google.com/file/d/1_yyENw6F-yjQ-4DEFSe_kESUBpYarJM_/view](https://drive.google.com/file/d/1_yyENw6F-yjQ-4DEFSe_kESUBpYarJM_/view)
+### PipeCraft2 beta
+[https://github.com/SuvalineVana/pipecraft-vue/releases/download/0.2.0-beta/pipecraft.Setup.0.2.0-beta.exe](https://github.com/SuvalineVana/pipecraft-vue/releases/download/0.2.0-beta/pipecraft.Setup.0.2.0-beta.exe)
 
 
 ## Ссылки
