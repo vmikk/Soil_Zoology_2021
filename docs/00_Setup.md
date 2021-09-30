@@ -173,7 +173,7 @@ sudo apt -y install wget
 
 ## 04. Ссылки
 
-- Anslan S, Mikryukov V, Armolaitis K, Ankuda J, Lazdina D, Makovskis K, Vesterdal L, Schmidt IK, Tedersoo L. Highly comparable metabarcoding results from MGI-Tech and Illumina sequencing platforms // _PeerJ_ (2021, _in press_).
+- Anslan S, Mikryukov V, Armolaitis K, Ankuda J, Lazdina D, Makovskis K, Vesterdal L, Schmidt IK, Tedersoo L. Highly comparable metabarcoding results from MGI-Tech and Illumina sequencing platforms // _PeerJ_ e12254 (2021) [DOI:10.7717/peerj.12254](https://peerj.com/articles/12254/).
 
 - Ansorge R, Birolo G, James SA, Telatin A. Dadaist2: A Toolkit to automate and simplify statistical analysis and plotting of metabarcoding experiments // _International Journal of Molecular Sciences_ 22 (2021). [DOI:10.3390/ijms22105309](https://www.mdpi.com/1422-0067/22/10/5309)
 
