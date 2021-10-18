@@ -23,7 +23,7 @@
 
 - Antich A, Palacin C, Wangensteen OS, Turon, X. To denoise or to cluster, that is not the question: optimizing pipelines for COI metabarcoding and metaphylogeography // _BMC Bioinformatics_ 22 (2021). [DOI:10.1186/s12859-021-04115-6](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-021-04115-6)
 
-- Tedersoo L, Bahram M, Zinger L, Nilsson H, Kennedy P, Yang T, Anslan S, Mikryukov S. Best practices in metabarcoding of fungi: from experimental design to results community ecologyfungimetagenomicsmicrobial biology // _Molecular Ecology_ (2021, _under review_) [DOI:10.22541/au.163430390.04226544/v1](https://www.authorea.com/users/292199/articles/541805-best-practices-in-metabarcoding-of-fungi-from-experimental-design-to-results?commit=205b73b5f5987db2c8b6939a7386a809f822e1a9)
+- Tedersoo L, Bahram M, Zinger L, Nilsson H, Kennedy P, Yang T, Anslan S, Mikryukov S. Best practices in metabarcoding of fungi: from experimental design to results community // _Molecular Ecology_ (2021, _under review_) [DOI:10.22541/au.163430390.04226544/v1](https://www.authorea.com/users/292199/articles/541805-best-practices-in-metabarcoding-of-fungi-from-experimental-design-to-results?commit=205b73b5f5987db2c8b6939a7386a809f822e1a9)
 
 - Tedersoo L, Albertsen M, Anslan S, Callahan B. Perspectives and benefits of
 high-throughput long-read sequencing in microbial ecology // _Applied and Environmental Microbiology_ 87 (2021) [DOI:10.1128/AEM.00626-21](https://journals.asm.org/doi/10.1128/AEM.00626-21)
