@@ -25,7 +25,7 @@ GitHub репозиторий: [https://github.com/SuvalineVana/pipecraft-vue](h
 [https://desktop.docker.com/win/stable/amd64/Docker%20Desktop%20Installer.exe](https://desktop.docker.com/win/stable/amd64/Docker%20Desktop%20Installer.exe)
 
 ### PipeCraft2 beta
-[https://github.com/SuvalineVana/pipecraft-vue/releases/download/0.2.0-beta/pipecraft.Setup.0.2.0-beta.exe](https://github.com/SuvalineVana/pipecraft-vue/releases/download/0.2.0-beta/pipecraft.Setup.0.2.0-beta.exe)
+[https://github.com/SuvalineVana/pipecraft/releases/download/0.3.0-windows/pipecraft.Setup.0.3.0.exe](https://github.com/SuvalineVana/pipecraft/releases/download/0.3.0-windows/pipecraft.Setup.0.3.0.exe)
 
 
 ## Ссылки
