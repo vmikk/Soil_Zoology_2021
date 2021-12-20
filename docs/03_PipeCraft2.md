@@ -2,7 +2,8 @@
 <p align="center"><img src="Images/PipeCraft2_logo.png" width="100" title="PipeCraft2" /><br/></p>
 PipeCraft2 - кросс-платформенный конструктор пайплайнов для анализа данных метабаркодинга. <br/>
 Поддерживаемые данные: платформы Illumina, MGI-Seq, PacBio. <br/>
-GitHub репозиторий: [https://github.com/SuvalineVana/pipecraft-vue](https://github.com/SuvalineVana/pipecraft-vue) <br/>
+GitHub репозиторий: https://github.com/SuvalineVana/pipecraft-vue <br/>
+Документация: https://pipecraft2-manual.readthedocs.io/en/stable/ <br/>
 
 Програма находится пока в активной разработке.
 
